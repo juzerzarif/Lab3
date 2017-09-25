@@ -1,0 +1,32 @@
+body
+{
+    background-color: #99ccff;
+    background-image: url(../body.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    font-size: 12pt;
+}
+p.name
+{
+    font-size: 60pt;
+    color: #00d2f7;
+}
+p.bio
+{
+    font-family: Arial, Helvetica, serif;
+    font-size: 12pt;
+}
+p.links
+{
+    font-family: Arial, Helvetica, serif;
+}
+a
+{
+    color: #b1cdf9;
+}
+a:hover
+{
+    color: #db6f6f;
+}

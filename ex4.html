@@ -1,0 +1,32 @@
+﻿<Html>
+    <head>
+    <title>Exercise 4</title>
+    <script src="js/ex4.js"></script>
+    </head>
+    <body>
+        <p id="dummy">
+            Blah blah blah, blah blah blah.<br>
+            This is a dummy paragraph.<br>
+            Blah, blah, blah, blah, blah blah.<br>
+        </p>
+        <form id="border">
+        Border:<br>
+        Red (0-255):&nbsp <input type="text" id="red"><br>
+        Green (0-255):&nbsp <input type="text" id="green"><br>
+        Blue (0-255):&nbsp <input type="text" id="blue"><br>
+        Width (in px):&nbsp <input type="text" id="width"><br>
+        </form>
+        <br>
+
+        <form id="background">
+        Background:<br>
+        Red (0-255):&nbsp <input type="text" id="bred"><br>
+        Green (0-255):&nbsp <input type="text" id="bgreen"><br>
+        Blue (0-255):&nbsp <input type="text" id="bblue"><br>
+        </form>
+        <br>
+
+        <button type="button" onClick="colorChange()">Submit</button>
+        <button type="button" onClick="colorReset()">Reset</button>
+    </body>
+</html>
