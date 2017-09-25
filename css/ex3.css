@@ -32,9 +32,15 @@ p.links
 }
 a
 {
-    color: #b1cdf9;
+    color: #f4df42;
 }
 a:hover
 {
     color: #db6f6f;
+}
+
+span
+{
+    font-weight: bold;
+    color: #00d2f7;
 }
