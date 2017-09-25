@@ -1,3 +1,9 @@
+img
+{
+    float: left;
+    padding: 3em;
+    clear: left;
+}
 body
 {
     background-color: #99ccff;
@@ -15,11 +21,13 @@ p.name
 }
 p.bio
 {
+    clear: right;
     font-family: Arial, Helvetica, serif;
     font-size: 12pt;
 }
 p.links
 {
+    padding: 3em;
     font-family: Arial, Helvetica, serif;
 }
 a
